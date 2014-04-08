@@ -1,0 +1,29 @@
+.left2{
+	background: #fff url(../img/patternbg.png);
+	width: 15%;
+	height: 850px;
+	float: left;
+	box-shadow: 0 0 5px ;
+}
+.right2{
+	background: #fff url(../img/patternbg.png);
+	width: 85%;
+	height: 850px;
+	float: left;
+	box-shadow: 0 0 5px ;
+}
+
+.left3{
+	background: #fff url(../img/patternbg.png);
+	width: 15%;
+	height: 940px;
+	float: left;
+	box-shadow: 0 0 5px ;
+}
+.right3{
+	background: #fff url(../img/patternbg.png);
+	width: 85%;
+	height: 940px;
+	float: left;
+	box-shadow: 0 0 5px ;
+}

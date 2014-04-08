@@ -1,0 +1,15 @@
+
+.right7{
+	background: #fff url(../img/patternbg.png);
+	width: 85%;
+	height: 500px;
+	float: left;
+	box-shadow: 0 0 5px ;
+}
+.left7{
+	background: #fff url(../img/patternbg.png);
+	width: 15%;
+	height: 800px;
+	float: left;
+	box-shadow: 0 0 5px ;
+}

@@ -1,0 +1,27 @@
+<%@ LANGUAGE="VBSCRIPT" %>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Login</title>
+</head>
+
+<body>
+
+<p>La modification </p>
+
+<%
+dim cnx,rs,id,reference,libelle,prix
+set cnx=Server.CreateObject("ADODB.Connection")
+cnx.Open("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=D:\GestionCommercial.mdb")
+set rs=Server.CreateObject("ADODB.RecordSet")
+id=Request.queryString("id_produit")
+reference=Request.queryString("reference")
+libelle=Request.queryString("libelle")
+prix=Request.queryString("prix")
+rs.Open "UPDATE produit SET reference='"&reference&"',libelle='"&libelle&"',prix='"&prix&"' WHERE  id_produit="&id&";",cnx
+%>
+
+</body>
+
+</html>
